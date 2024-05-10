@@ -4,8 +4,9 @@ import { Outlet } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
+//Create an apollo client
 const client = new ApolloClient({
-  uri: '/graphql',
+  uri: '/graphql', //db url
   cache: new InMemoryCache(),
 });
 
