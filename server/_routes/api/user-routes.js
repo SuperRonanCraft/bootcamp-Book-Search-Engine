@@ -5,7 +5,7 @@ const {
   saveBook,
   deleteBook,
   login,
-} = require('../../controllers/user-controller');
+} = require('../../_controllers/user-controller');
 
 // import middleware
 const { authMiddleware } = require('../../utils/auth');

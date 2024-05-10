@@ -1,3 +1,4 @@
+//Type defs grabbed from graphql
 const typeDefs = `
     type Book {
         bookId: String
